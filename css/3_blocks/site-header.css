@@ -1,0 +1,19 @@
+.b_site-header {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-block-end: 3px solid var(--color-primary);
+}
+
+.b_site-header a {
+    text-decoration: none;
+}
+
+.b_site-header a:hover {
+    color: var(--color-light-soft);
+}
+
+.b_site-header__logo {
+    font-family: var(--font-family-secondary);
+    font-size: var(--step-2);
+    letter-spacing: -0.02em;
+}

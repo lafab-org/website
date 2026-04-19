@@ -1,8 +1,7 @@
 import { readdirSync, readFileSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { join } from "path";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
+const CSS_ROOT = join(process.cwd(), "css");
 
 export default class CSSBundle {
   data() {
@@ -13,14 +12,14 @@ export default class CSSBundle {
   }
 
   render() {
-    const folders = readdirSync(__dirname, { withFileTypes: true })
+    const folders = readdirSync(CSS_ROOT, { withFileTypes: true })
       .filter((d) => d.isDirectory())
       .map((d) => d.name)
       .sort();
 
     return folders
       .flatMap((folder) => {
-        const folderPath = join(__dirname, folder);
+        const folderPath = join(CSS_ROOT, folder);
         return readdirSync(folderPath)
           .filter((f) => f.endsWith(".css"))
           .sort()
