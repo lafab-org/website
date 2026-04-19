@@ -1,0 +1,9 @@
+
+/* The Grid - A grid of content */
+/* https://every-layout.dev/layouts/grid/ */
+
+.l_grid {
+    display: grid;
+    gap: var(--l_grid__gap, 1rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(var(--l_grid__size, 25ch), 100%), 1fr));
+}

@@ -1,0 +1,6 @@
+/* The Box - Padding around block */
+/* https://every-layout.dev/layouts/box/ */
+
+.l_box {
+    padding: var(--l_box__padding, 1rem);
+}

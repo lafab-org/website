@@ -1,0 +1,17 @@
+/* Repel - pushes items away from each other where there is space
+           in the viewport and stacks on small viewports */
+/* https://piccalil.li/blog/reality-check-1-building-out-a-furniture-site-from-dribbble/#repel */
+/* mk2 */
+
+.l_repel {
+    display: flex;
+    flex-wrap: var(--l_repel__wrap, wrap);
+    justify-content: space-between;
+    align-items: var(--l_repel__alignment, center);
+    gap: var(--l_repel__gap, 1rem);
+}
+
+.l_repel[data-repel-variant='vertical'] {
+    --l_repel__alignment: stretch;
+    flex-direction: column;
+}

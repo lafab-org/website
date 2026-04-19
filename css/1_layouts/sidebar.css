@@ -1,0 +1,21 @@
+
+
+/* The Sidebar - sidebar that switch to vertical */
+/* https://every-layout.dev/layouts/sidebar/ */
+
+.l_sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--l_sidebar__gap, 1rem);
+}
+
+.l_sidebar>.l_sidebar__side {
+    flex-basis: var(--l_sidebar__width, 20rem);
+    flex-grow: 1;
+}
+
+.l_sidebar>.l_sidebar__main {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+}

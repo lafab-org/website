@@ -1,0 +1,31 @@
+
+/* ---- CSS Utilities ---- */
+
+.u_text-align-center {
+    text-align: center;
+}
+
+.u_text-align-right {
+    text-align: right;
+}
+
+.u_list-style-none {
+    list-style: none;
+}
+
+.u_reset-marg-pad {
+    margin: 0;
+    padding: 0;
+}
+
+.u_margin-inline-auto {
+    margin-inline: auto;
+}
+
+.u_text-decoration-none {
+    text-decoration: none;
+}
+
+.u_empty_list-style {
+    list-style-type: '';
+}

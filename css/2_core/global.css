@@ -1,0 +1,117 @@
+/* global font, color and vertical rythmn */
+/* A lot come from https://piccalil.li/blog/some-simple-ways-to-make-content-look-good/ */
+
+:root {
+    --color-dark: #0c0c0c;
+    --color-dark-soft: #202020;
+    --color-light: #ffffff;
+    --color-light-soft: #d0d0d0;
+
+    --color-primary: #4545db;
+    --color-secondary: #db4545;
+
+    color: var(--color-dark);
+    background: var(--color-light);
+    font-family: var(--font-family-primary);
+    font-size: var(--step-0);
+    text-wrap: pretty;
+
+    line-height: 1.5;
+    --l_flow__space: 1em;
+    --l_box__padding: 1rem;
+    --l_center__size: 65ch;
+}
+
+
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: var(--font-family-secondary);
+    line-height: 1.1;
+    text-wrap: balance;
+    hyphens: auto;
+}
+
+/* réduire la hauteur de ligne des titres */
+:is(h1, h2, h3, h4, h5, h6, blockquote) {
+    --l_flow__space: 1.25em;
+}
+
+/* rapprocher le titre avec le texte qui suit */
+:is(h1, h2, h3, h4, h5, h6)+* {
+    --l_flow__space: 0.5em;
+}
+
+h1 {
+    font-size: var(--step-5);
+}
+
+h2 {
+    font-size: var(--step-4);
+}
+
+h3 {
+    font-size: var(--step-3);
+}
+
+h4 {
+    font-size: var(--step-2);
+}
+
+h5 {
+    font-size: var(--step-1);
+}
+
+h6 {
+    font-size: var(--step-0);
+}
+
+:is(ul, ol) {
+    /* se rapprocher de la ligne du dessus */
+    --l_flow__space: 0.25em;
+}
+
+ol {
+    /* pour que les numéro des ol soit plus à droite */
+    list-style-position: inside;
+}
+
+blockquote {
+    padding-inline-start: 1em;
+    border-inline-start: 0.3em solid var(--color-primary);
+    font-style: italic;
+    font-size: var(--step-1);
+    font-family: var(--font-family-secondary);
+}
+
+a {
+    color: currentColor;
+    text-decoration-color: var(--color-primary);
+    text-decoration-thickness: 0.2ex;
+    text-underline-offset: 0.2ex;
+}
+
+/* style français */
+ul {
+    list-style-type: '- ';
+}
+
+em {
+    color: var(--color-secondary);
+}
+
+strong {
+    color: var(--color-secondary);
+}
+
+small {
+    font-size: var(--step--1);
+    color: var(--color-dark-soft);
+}
+
+pre {
+    font-size: var(--step--1);
+    padding: 1em;
+}
+
+hr {
+    border: 0.2ex solid var(--color-primary);
+}

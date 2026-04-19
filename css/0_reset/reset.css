@@ -1,0 +1,48 @@
+
+/* ---- CSS Reset ---- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:is(ul, ol) {
+    padding-inline-start: 2em;
+}
+
+img,
+picture,
+video {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+a {
+    color: currentColor;
+}

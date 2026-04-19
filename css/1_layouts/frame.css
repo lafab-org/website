@@ -1,0 +1,21 @@
+
+/* The Frame - frame images into a given aspect ratio */
+/* https://every-layout.dev/layouts/frame/ */
+
+.l_frame {
+    --l_frame__n: 16;
+    --l_frame__d: 9;
+    --l_frame__fit: cover;
+    aspect-ratio: var(--l_frame__n) / var(--l_frame__d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.l_frame > img,
+.l_frame > video {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: var(--l_frame__fit);
+}
