@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+title: Actualités
+tags: []
+eleventyExcludeFromCollections: true
+---
+<h1>Actualités</h1>
+<ul>
+  {% for post in collections.news | reverse %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </li>
+  {% endfor %}
+</ul>

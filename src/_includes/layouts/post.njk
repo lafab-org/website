@@ -6,3 +6,9 @@ layout: layouts/base.njk
   <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
   {{ content | safe }}
 </article>
+<nav>
+  {% set prev = collections.news | getPreviousCollectionItem %}
+  {% set next = collections.news | getNextCollectionItem %}
+  {% if prev %}<a href="{{ prev.url }}">← {{ prev.data.title }}</a>{% endif %}
+  {% if next %}<a href="{{ next.url }}">{{ next.data.title }} →</a>{% endif %}
+</nav>
