@@ -3,3 +3,9 @@ layout: layouts/base.njk
 title: Accueil
 ---
 <h1>Bienvenue à La Fabrique</h1>
+
+<ul>
+{%- for p in collections.page | sort(false, false, "data.title") %}
+  <li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
+{%- endfor %}
+</ul>
