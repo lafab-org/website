@@ -20,21 +20,46 @@ docker compose up dev    # dev server at http://localhost:8080 (source mounted a
 docker compose up prod   # production build served by nginx at http://localhost:80
 ```
 
+## Content structure
+
+Three content types, each with a folder-per-item pattern (co-located images):
+
+- **`src/pages/`** — static association pages (about, contact, activities…). Tagged `page`. Listed on the homepage.
+- **`src/news/`** — dated news articles. Tagged `news`. Folder names prefixed `YYYY-MM-DD-slug`.
+- **`src/realisations/`** — member project albums. Tagged `realisations`. Folder names prefixed `YYYY-MM-DD-slug` when a date is known (14 out of 43 have no recoverable date).
+
+Each content folder has a `.json` file (`pages.json`, `news.json`, `realisations.json`) that sets the shared layout and tag for all items in that folder.
+
+Listing pages (`src/pages/index/index.md`, `src/realisations/index.njk`) are excluded from their collection with `eleventyExcludeFromCollections: true` and `tags: []` to avoid self-inclusion.
+
 ## Architecture
 
 Eleventy generates static HTML from templates and content files. Output goes to `_site/`.
 
+Images are processed by `@11ty/eleventy-img` (transform plugin): all `<img>` tags in HTML output are automatically converted to `<picture>` with WebP + fallback, multiple widths (400, 800, 1200, auto).
+
+CMYK JPEGs are incompatible with eleventy-img's `image-size` dependency. Convert with: `magick convert file.jpg -colorspace sRGB file.jpg`
+
 ### CSS — CUBE CSS
 
-Styles are organized in four layers:
+Styles live in `css/` at the project root, organized in numbered folders that define bundle order:
 
-- **Composition** — layout primitives (flow, cluster, stack, grid…). No cosmetic styles.
-- **Utility** — single-purpose classes generated from a design token scale.
-- **Block** — scoped component styles, named after the component (`.card`, `.nav`…).
-- **Exception** — overrides using data attributes (`data-variant="inverted"`).
+```
+css/
+  0_reset/
+  1_layouts/    # Every Layout primitives (composition layer)
+  2_core/       # fonts, custom properties, global styles
+  3_blocks/     # scoped component styles
+  4_utilities/  # single-purpose utility classes
+  styles.11ty.js  # Eleventy template: bundles all folders/files in alphabetical order → /css/styles.css
+```
 
-Avoid mixing concerns across layers: a composition class must never set colors, a block must never define layout for its siblings.
+`styles.11ty.js` reads folders then files in alphabetical order and concatenates them into a single `/css/styles.css`. Adding a file to any folder includes it automatically — no config change needed.
 
-### Design tokens
+CUBE CSS layer rules:
+- **Composition** (`1_layouts`) — layout primitives only. No colors, no cosmetic styles.
+- **Block** (`3_blocks`) — scoped component styles. No layout for siblings.
+- **Utility** (`4_utilities`) — single-purpose classes from the design token scale.
+- **Exception** — overrides via data attributes (`data-variant="inverted"`).
 
-All values (colors, spacing, type scale) are defined as CSS custom properties and consumed by utility classes and blocks. Do not hard-code values.
+All values (colors, spacing, type scale) are CSS custom properties defined in `2_core/2_custom_prop.css`. Do not hard-code values.
