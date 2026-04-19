@@ -1,4 +1,5 @@
 ---
+cover: "P1010211.jpg"
 date: 2019-09-08
 title: "Tabourets hauts"
 maker: "Arnaud"

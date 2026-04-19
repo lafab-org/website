@@ -1,4 +1,5 @@
 ---
+cover: "IMG_20200508_120210092.jpg"
 date: 2020-05-08
 title: "Tabouret à pieds divergents"
 maker: "Simon"

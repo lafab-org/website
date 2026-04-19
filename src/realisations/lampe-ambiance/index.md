@@ -1,4 +1,5 @@
 ---
+cover: "IMG_9852-scaled.jpeg"
 title: "Lampe d'ambiance"
 maker: "Serban"
 ---

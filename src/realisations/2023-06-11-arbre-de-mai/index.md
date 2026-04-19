@@ -1,4 +1,5 @@
 ---
+cover: "arbre-de-mai-celine-delabre-rubans-015-scaled.jpg"
 date: 2023-06-11
 title: "Arbre de mai"
 maker: "Céline Delabre"

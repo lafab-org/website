@@ -1,4 +1,5 @@
 ---
+cover: "received_313866834107239.jpeg"
 title: "Meuble à thés"
 maker: "Benjamin"
 ---

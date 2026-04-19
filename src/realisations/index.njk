@@ -5,10 +5,21 @@ tags: []
 eleventyExcludeFromCollections: true
 ---
 <h1>Réalisations</h1>
-<ul>
+<ul class="l_grid u_list-style-none u_reset-marg-pad" style="--l_grid__size: 260px">
   {% for r in collections.realisations | sort(false, false, "data.title") %}
     <li>
-      <a href="{{ r.url }}">{{ r.data.title }}</a> — {{ r.data.maker }}
+      <a href="{{ r.url }}" class="b_card u_text-decoration-none">
+        {% if r.data.cover %}
+          <div class="b_card__cover">
+            <img src="{{ r.url }}{{ r.data.cover }}" alt="{{ r.data.title }}">
+          </div>
+        {% endif %}
+        <span class="b_card__title">{{ r.data.title }}</span>
+        <span class="b_card__meta">
+          {% if r.data.maker %}{{ r.data.maker }}{% endif %}
+          {% if r.data.date %} · {{ r.data.date | readableDate }}{% endif %}
+        </span>
+      </a>
     </li>
   {% endfor %}
 </ul>

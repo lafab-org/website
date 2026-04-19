@@ -1,4 +1,5 @@
 ---
+cover: "IMG_2596.jpg"
 date: 2019-07-14
 title: "Table basse"
 maker: "Vincent"

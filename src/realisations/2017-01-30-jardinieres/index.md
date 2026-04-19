@@ -1,4 +1,5 @@
 ---
+cover: "1220474-scaled.jpg"
 date: 2017-01-30
 title: "Jardinières"
 maker: "Damien"

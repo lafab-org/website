@@ -1,8 +1,16 @@
 ---
 layout: layouts/base.njk
 ---
-<article>
-  <h1>{{ title }}</h1>
-  {% if member %}<p>{{ member }}</p>{% endif %}
-  {{ content | safe }}
+<article class="b_realisation l_flow">
+  <header class="b_realisation__header l_flow">
+    <a href="/realisations/" class="b_realisation__back">← Réalisations</a>
+    <h1>{{ title }}</h1>
+    <p class="b_realisation__meta">
+      {% if maker %}<span>{{ maker }}</span>{% endif %}
+      {% if date %}<time datetime="{{ date | htmlDateString }}"> · {{ date | readableDate }}</time>{% endif %}
+    </p>
+  </header>
+  <div class="b_realisation__gallery l_grid">
+    {{ content | safe }}
+  </div>
 </article>

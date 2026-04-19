@@ -1,4 +1,5 @@
 ---
+cover: "IMAG0408-scaled.jpg"
 title: "Four à pain"
 maker: "Collectif"
 ---
