@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} — {% endif %}{{ site.name }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+  </head>
+  <body>
+    {% include "components/header.njk" %}
+    <main>
+      {{ content | safe }}
+    </main>
+    {% include "components/footer.njk" %}
+  </body>
+</html>
