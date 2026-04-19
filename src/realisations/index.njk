@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Réalisations
+tags: []
+eleventyExcludeFromCollections: true
+---
+<h1>Réalisations</h1>
+<ul>
+  {% for r in collections.realisations | sort(false, false, "data.title") %}
+    <li>
+      <a href="{{ r.url }}">{{ r.data.title }}</a> — {{ r.data.maker }}
+    </li>
+  {% endfor %}
+</ul>
