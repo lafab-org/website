@@ -10,7 +10,7 @@ layout: layouts/base.njk
       {% if date %}<time datetime="{{ date | htmlDateString }}"> · {{ date | readableDate }}</time>{% endif %}
     </p>
   </header>
-  <div class="b_realisation__gallery l_grid">
+  <div class="b_realisation__gallery l_flow">
     {{ content | safe }}
   </div>
 </article>
