@@ -106,7 +106,7 @@ em {
 }
 
 strong {
-    color: var(--color-secondary);
+    color: var(--color-dark);
 }
 
 small {
