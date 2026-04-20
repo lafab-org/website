@@ -1,10 +1,29 @@
 <header class="b_site-header">
-  <div class="l_repel l_box l_center" style="--l_center__size: min(90%, 1100px)">
-    <a href="/" class="b_site-header__logo u_text-decoration-none">{{ site.name }}</a>
+  <div class="b_site-header__primary l_repel l_box l_center" style="--l_center__size: min(90%, 1100px)">
+    <a href="/" class="b_site-header__logo">
+      <img src="/assets/images/lafab logo fond blanc.svg" alt="{{ site.name }}" width="160" height="auto">
+    </a>
     <nav class="l_cluster" style="--l_cluster__gap: 2rem">
       {% for item in navigation %}
         <a href="{{ item.url }}">{{ item.label }}</a>
       {% endfor %}
     </nav>
   </div>
+  <nav class="b_site-header__subnav" aria-label="Navigation des pages">
+    <div class="l_cluster l_center" style="--l_center__size: min(90%, 1100px); --l_cluster__gap: 0">
+      {% set pages_nav = [
+        { label: "Ateliers", url: "/ateliers/" },
+        { label: "Formations", url: "/initiations/" },
+        { label: "Horaires et tarifs", url: "/horaires-et-tarifs/" },
+        { label: "Nous contacter", url: "/nous-contacter/" },
+        { label: "Nous soutenir", url: "/nous-soutenir/" }
+      ] %}
+      {% for item in pages_nav %}
+        <a href="{{ item.url }}"
+           class="b_site-header__subnav-item{% if page.url == item.url %} b_site-header__subnav-item--active{% endif %}">
+          {{ item.label }}
+        </a>
+      {% endfor %}
+    </div>
+  </nav>
 </header>

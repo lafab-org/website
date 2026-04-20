@@ -13,8 +13,10 @@ body {
     --color-light: #ffffff;
     --color-light-soft: #d0d0d0;
 
-    --color-primary: #4545db;
-    --color-secondary: #db4545;
+    --color-primary: #ff6600;
+    --color-primary-soft: #fff0e6;
+    --color-secondary: #1a4a7a;
+    --color-secondary-soft: #e6eef5;
 
     color: var(--color-dark);
     background: var(--color-light);

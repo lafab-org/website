@@ -1,6 +1,6 @@
 .b_site-footer {
-    background-color: var(--color-dark-soft);
-    color: var(--color-light-soft);
+    background-color: var(--color-light);
+    color: var(--color-dark-soft);
     font-size: var(--step--1);
     border-block-start: 3px solid var(--color-primary);
     margin-block-start: auto;
@@ -12,11 +12,11 @@
 
 .b_site-footer__nav a {
     text-decoration: none;
-    color: var(--color-light-soft);
+    color: var(--color-dark-soft);
 }
 
 .b_site-footer__nav a:hover {
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 .b_site-footer__copy {

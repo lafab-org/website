@@ -1,5 +1,12 @@
 /* Fonts */
 
+@font-face {
+    font-family: 'Aharoni';
+    src: url('/assets/fonts/ahronbd.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
 /* from https://modernfontstacks.com/ */
 :root {
     --font-family-primary:
@@ -10,4 +17,5 @@
         /* Transitional */
         Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 
+    --font-family-brand: 'Aharoni', Impact, sans-serif;
 }

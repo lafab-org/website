@@ -1,8 +1,6 @@
 /* Custom Properties */
 
-/* Sizes */
-
-/* @link https://utopia.fyi/type/calculator?c=360,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+/* @link https://utopia.fyi/type/calculator?c=360,18,1.2,1240,20,1.25,7,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 :root {
   --step--2: clamp(0.7813rem, 0.7736rem + 0.0341vw, 0.8rem);
@@ -13,4 +11,34 @@
   --step-3: clamp(1.944rem, 1.7405rem + 0.9044vw, 2.4414rem);
   --step-4: clamp(2.3328rem, 2.0387rem + 1.3072vw, 3.0518rem);
   --step-5: clamp(2.7994rem, 2.384rem + 1.8461vw, 3.8147rem);
+  --step-6: clamp(3.3592rem, 2.7828rem + 2.5621vw, 4.7684rem);
+  --step-7: clamp(4.0311rem, 3.2418rem + 3.508vw, 5.9605rem);
+}
+
+
+/* @link https://utopia.fyi/space/calculator?c=360,18,1.2,1240,19,1.25,7,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  --space-2xs: clamp(0.5625rem, 0.5369rem + 0.1136vw, 0.625rem);
+  --space-xs: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+  --space-s: clamp(1.125rem, 1.0994rem + 0.1136vw, 1.1875rem);
+  --space-m: clamp(1.6875rem, 1.6364rem + 0.2273vw, 1.8125rem);
+  --space-l: clamp(2.25rem, 2.1989rem + 0.2273vw, 2.375rem);
+  --space-xl: clamp(3.375rem, 3.2983rem + 0.3409vw, 3.5625rem);
+  --space-2xl: clamp(4.5rem, 4.3977rem + 0.4545vw, 4.75rem);
+  --space-3xl: clamp(6.75rem, 6.5966rem + 0.6818vw, 7.125rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.3125rem, 0.1847rem + 0.5682vw, 0.625rem);
+  --space-2xs-xs: clamp(0.5625rem, 0.4347rem + 0.5682vw, 0.875rem);
+  --space-xs-s: clamp(0.875rem, 0.7472rem + 0.5682vw, 1.1875rem);
+  --space-s-m: clamp(1.125rem, 0.8438rem + 1.25vw, 1.8125rem);
+  --space-m-l: clamp(1.6875rem, 1.4063rem + 1.25vw, 2.375rem);
+  --space-l-xl: clamp(2.25rem, 1.7131rem + 2.3864vw, 3.5625rem);
+  --space-xl-2xl: clamp(3.375rem, 2.8125rem + 2.5vw, 4.75rem);
+  --space-2xl-3xl: clamp(4.5rem, 3.4261rem + 4.7727vw, 7.125rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.125rem, 0.6136rem + 2.2727vw, 2.375rem);
 }

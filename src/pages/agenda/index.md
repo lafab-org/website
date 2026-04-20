@@ -1,7 +1,6 @@
 ---
 title: "Agenda"
 date: 2024-01-01
-layout: layouts/base.njk
 eleventyNavigation:
   key: Agenda
   parent: Accueil
