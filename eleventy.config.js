@@ -1,9 +1,11 @@
 import { htmlDateString, readableDate } from "./js/filters.js";
+import CSSBundle from "./js/styles.11ty.js";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addWatchTarget("css");
+  eleventyConfig.addTemplate("styles.11ty.js", CSSBundle);
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: "html",
     formats: ["webp", "auto"],
