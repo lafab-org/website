@@ -16,6 +16,23 @@
     font-size: var(--step-1);
 }
 
+.b_site-header__main-item {
+    padding-block-end: 0.2em;
+    border-block-end: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+}
+
+.b_site-header__main-item:hover {
+    color: var(--color-dark);
+    border-block-end-color: var(--color-primary);
+}
+
+.b_site-header__main-item--active {
+    color: var(--color-dark);
+    border-block-end-color: var(--color-primary);
+    font-weight: bold;
+}
+
 .b_site-header__logo {
     display: flex;
     align-items: center;

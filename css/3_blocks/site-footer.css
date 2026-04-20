@@ -6,6 +6,28 @@
     margin-block-start: auto;
 }
 
+.b_site-footer__membership {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    text-decoration: none;
+    color: var(--color-dark-soft);
+    font-size: var(--step--2);
+    transition: color 0.15s;
+}
+
+.b_site-footer__membership img {
+    height: var(--space-xl);
+    width: auto;
+    flex-shrink: 0;
+}
+
+.b_site-footer__membership span {
+    max-width: 18ch;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
 .b_site-footer__nav {
     --l_cluster__gap: 0.25rem 1.5rem;
 }
