@@ -10,6 +10,7 @@ export default function (eleventyConfig) {
     extensions: "html",
     formats: ["webp", "auto"],
     widths: [400, 800, 1200, "auto"],
+    svgShortCircuit: true,
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
