@@ -1,5 +1,6 @@
 /* Fonts */
 
+/* font used in the La Fabrique Logo */
 @font-face {
     font-family: 'Aharoni';
     src: url('/assets/fonts/ahronbd.ttf') format('truetype');
@@ -7,15 +8,36 @@
     font-display: swap;
 }
 
-/* from https://modernfontstacks.com/ */
-:root {
-    --font-family-primary:
-        /* Neo-Grotesque */
-        Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+/* https://www.brailleinstitute.org/freefont/ */
+@font-face {
+    font-family: 'Atkinson-Hyperlegible-Next';
+    src: url('/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2'),
+         url('/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.ttf') format('truetype');
+    font-weight: 400 900;
+    font-style: normal;
+    font-display: swap;
+}
 
-    --font-family-secondary:
-        /* Transitional */
-        Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+@font-face {
+    font-family: 'Atkinson-Hyperlegible-Next';
+    src: url('/assets/fonts/AtkinsonHyperlegibleNext-RegularItalic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atkinson-Hyperlegible-Next';
+    src: url('/assets/fonts/AtkinsonHyperlegibleNext-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+:root {
+    --font-family-primary: 'Atkinson-Hyperlegible-Next', sans-serif;
+
+    --font-family-secondary: 'Atkinson-Hyperlegible-Next', sans-serif;
 
     --font-family-brand: 'Aharoni', Impact, sans-serif;
 }
