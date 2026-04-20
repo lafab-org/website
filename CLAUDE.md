@@ -63,3 +63,11 @@ CUBE CSS layer rules:
 - **Exception** — overrides via data attributes (`data-variant="inverted"`).
 
 All values (colors, spacing, type scale) are CSS custom properties defined in `2_core/2_custom_prop.css`. Do not hard-code values.
+
+### When to use each approach
+
+Inline styles (e.g. `style="--l_grid__size: 260px"`) are fine for one-off layout tuning — adjusting a composition variable for a specific instance. No need to create a block just to set a variable.
+
+Create a **Block** (`3_blocks/`) when a component has a distinct visual identity beyond what composition + utilities cover — specific colors, typography, spacing rhythm, hover states. Each block gets its own file and uses BEM element classes (`b_block__element`). This is plain BEM inside CUBE CSS.
+
+Decision rule: if layout primitives and utilities are enough → use them (with inline variables if needed). If the design need is particular to a component → create a block.

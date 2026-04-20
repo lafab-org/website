@@ -1,14 +1,19 @@
 ---
 layout: layouts/base.njk
 ---
-<article>
-  <h1>{{ title }}</h1>
-  <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-  {{ content | safe }}
+<article class="b_post l_flow">
+  <header class="b_post__header l_flow">
+    <a href="/news/" class="b_post__back">← Actualités</a>
+    <h1>{{ title }}</h1>
+    <time class="b_post__date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+  </header>
+  <div class="b_post__content l_flow">
+    {{ content | safe }}
+  </div>
 </article>
-<nav>
+<nav class="b_post__nav l_repel">
   {% set prev = collections.news | getPreviousCollectionItem %}
   {% set next = collections.news | getNextCollectionItem %}
-  {% if prev %}<a href="{{ prev.url }}">← {{ prev.data.title }}</a>{% endif %}
-  {% if next %}<a href="{{ next.url }}">{{ next.data.title }} →</a>{% endif %}
+  {% if prev %}<a href="{{ prev.url }}">← {{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+  {% if next %}<a href="{{ next.url }}">{{ next.data.title }} →</a>{% else %}<span></span>{% endif %}
 </nav>

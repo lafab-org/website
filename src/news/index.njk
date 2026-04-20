@@ -4,12 +4,14 @@ title: Actualités
 tags: []
 eleventyExcludeFromCollections: true
 ---
-<h1>Actualités</h1>
-<ul>
+<h1 class="b_news-listing__title">Actualités</h1>
+<ul class="b_news-listing__list l_flow u_list-style-none u_reset-marg-pad">
   {% for post in collections.news | reverse %}
     <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
-      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      <a href="{{ post.url }}" class="b_card b_card--news u_text-decoration-none">
+        <time class="b_card__meta" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+        <span class="b_card__title">{{ post.data.title }}</span>
+      </a>
     </li>
   {% endfor %}
 </ul>

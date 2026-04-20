@@ -1,0 +1,39 @@
+.b_post__back {
+    font-size: var(--step--1);
+    text-decoration: none;
+    color: var(--color-dark-soft);
+}
+
+.b_post__back:hover {
+    color: var(--color-primary);
+}
+
+.b_post__date {
+    font-size: var(--step--1);
+    color: var(--color-dark-soft);
+    display: block;
+}
+
+.b_post__content picture,
+.b_post__content img {
+    border-radius: 2px;
+    max-block-size: 60vh;
+    object-fit: contain;
+    margin-inline: auto;
+}
+
+.b_post__nav {
+    margin-block-start: 2rem;
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--color-light-soft);
+    font-size: var(--step--1);
+}
+
+.b_post__nav a {
+    text-decoration: none;
+    color: var(--color-dark-soft);
+}
+
+.b_post__nav a:hover {
+    color: var(--color-primary);
+}

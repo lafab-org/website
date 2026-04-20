@@ -1,0 +1,7 @@
+.b_news-listing__title {
+    margin-block-end: 2rem;
+}
+
+.b_news-listing__list {
+    --l_flow__space: 0.25rem;
+}
