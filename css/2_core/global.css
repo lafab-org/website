@@ -120,7 +120,8 @@ pre {
 }
 
 hr {
-    border: 0.2ex solid var(--color-primary);
+    border: none;
+    border-block-end: 3px dashed var(--color-primary);
 }
 
 p > picture,

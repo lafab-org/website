@@ -1,5 +1,5 @@
 .b_site-header {
-    border-block-end: 2px solid var(--color-primary);
+    border-block-end: 3px dashed var(--color-primary);
 }
 
 .b_site-header a {
