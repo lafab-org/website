@@ -1,7 +1,9 @@
 /* The Center - horizontal centering */
 /* https://every-layout.dev/layouts/center/ */
+/* mk2 */
 
 .l_center {
     max-inline-size: var(--l_center__size, 65ch);
     margin-inline: auto;
+    padding-inline: var(--l_center__padding, 1rem);
 }

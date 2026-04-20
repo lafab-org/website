@@ -1,11 +1,6 @@
 /* global font, color and vertical rythmn */
 /* A lot come from https://piccalil.li/blog/some-simple-ways-to-make-content-look-good/ */
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100svh;
-}
 
 :root {
     --color-dark: #0c0c0c;
@@ -27,7 +22,11 @@ body {
     line-height: 1.5;
     --l_flow__space: 1em;
     --l_box__padding: 1rem;
-    --l_center__size: 65ch;
+
+    /* control the main template */
+    --l_center__size: 45rem;
+    --l_center__padding: var(--space-s);
+
 }
 
 
