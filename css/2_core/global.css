@@ -123,3 +123,22 @@ pre {
 hr {
     border: 0.2ex solid var(--color-primary);
 }
+
+p > picture,
+figure {
+    max-inline-size: calc(var(--l_center__size) * 2 / 3);
+    margin-inline: auto;
+}
+
+figure {
+    padding: var(--space-xs);
+    border-radius: 20px;
+    background-color: var(--color-primary-soft);
+}
+
+figcaption {
+    text-align: center;
+    font-size: var(--step--1);
+    color: var(--color-dark-soft);
+    padding-block-start: var(--space-2xs);
+}
