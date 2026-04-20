@@ -1,248 +1,107 @@
 ---
-title: "Initiations"
+title: "Formations"
 date: 2022-10-04
 eleventyNavigation:
-  key: Initiations
+  key: Formations
   parent: Accueil
 ---
 
-**Réservation sur calendrier [lafab.org/events](/events)**
+Les initiations permettent d'accéder en autonomie aux machines qui le nécessitent, ou d'apprendre une technique particulière. Elles se déroulent en petits groupes avec un·e formateur·rice bénévole de La Fabrique.
 
-NOTE : après réservation, toute annulation de votre part moins de 48h à l'avance ne donnera lieu à aucun remboursement ou avoir.
+**Réservation et paiement en ligne sur [l'Agenda](/agenda/).**
 
-## POUR UN ACCÈS EN AUTONOMIE SUR LES MACHINES CONCERNÉES
+Toute annulation moins de 48h avant la session ne donne lieu à aucun remboursement ou avoir.
 
-### DÉBITER DU BOIS
+**Tarif : 30 € par session** (+10 € d'adhésion annuelle pour les non-membres)
 
-#### UTILISER LES SCIES
+---
 
-![](./Scie-a-format-bois.png)
+## Initiations obligatoires
 
-**Objectifs :**
+Ces initiations sont requises avant tout accès en autonomie sur les machines concernées.
 
-- Utiliser en sécurité les scies installées dans l'atelier menuiserie
+### Menuiserie — Utiliser les scies
 
-- Monter en compétence pour découper votre bois plus rapidement qu'avec des outils électroportatifs
+![Scie à format](./Scie-a-format-bois.png)
 
-**Matériel requis :**
+Utiliser en sécurité les scies de l'atelier menuiserie (scie à format, grande scie à format). Monter en compétence pour débiter le bois rapidement.
 
-- Vêtements près du corps
+**Équipement requis :** vêtements près du corps, chaussures fermées, cheveux attachés, protection auditive.
 
-- Chaussures fermées
+**Groupe :** 2 à 4 personnes
 
-- Cheveux attachés
+### Menuiserie — Dégauchisseuse et raboteuse
 
-- Casque anti-bruit ou bouchons d'oreilles
+![Dégauchisseuse](./Ancienne-degochiseuse-bois.jpg)
 
-**Groupe** de 2 à 4 personnes
+S'initier au travail du bois massif. Apprendre à obtenir une planche aux dimensions souhaitées.
 
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
+**Équipement requis :** vêtements près du corps, chaussures fermées, cheveux attachés, protection auditive.
 
-Pour voir le calendrier, réserver et payer, [c’est par ici](/events).
+**Groupe :** 2 à 4 personnes
 
-### TRAVAIL DU BOIS MASSIF
-
-#### FAIRE DES PLANCHES
-
-![](./Ancienne-degochiseuse-bois.jpg)
-
-**Objectifs :**
-
-- S’initier au travail avec le bois massif
-
-- Apprendre à obtenir une planche aux dimensions souhaités
-
-**Matériel requis :**
-
-- Vêtements près du corps
-
-- Chaussures fermées
-
-- Cheveux attachés
-
-- Casque anti-bruit ou bouchons d'oreilles
-
-**Groupe** de 2 à 4 personnes
-
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
-
-Pour voir le calendrier, réserver et payer, [c’est par ici](/events).
-
-### DÉCOUPE LASER
-
-#### APPRENDRE À UTILISER LA MACHINE
-
-![](./IMG_20230713_143321-scaled.jpg)
-
-Cette formation permet de s’initier à l’utilisation de la machine en sécurité et d’en comprendre les grands principes de fonctionnement ainsi que ses limites. Un niveau minimum est requis quand à la manipulation/ création de fichier au format vectoriel (\*.svg, \*.ai ou \*.dxf). Si cela ne vous parle pas, merci de vous formez préalablement par vous-même ou de faire la formation correspondante (qui arrivera bientôt à La Fabrique !).
-
-**Groupe** de 1 à 3 personnes
-
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
-
-Pour voir le calendrier, réserver et payer, [c’est par ici](/events).  
-
-### TOUR À BOIS
-
-#### APPRENDRE À TOURNER
+### Menuiserie — Tour à bois
 
 <figure>
 
-![](./Bol-D-22-01-2020.jpeg)
+![Bol tourné](./Bol-D-22-01-2020.jpeg)
 
-<figcaption>
-
-Bol tourné. Par Cyril
-
-</figcaption>
+<figcaption>Bol tourné. Par Cyril</figcaption>
 
 </figure>
 
-Apprenez à vous servir du tour à bois. C'est une initiation obligatoire pour utiliser cette machine.
+Apprendre à utiliser le tour à bois en sécurité.
 
-**Groupe** de 2 personnes
+**Groupe :** 2 personnes
 
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
+### Métallerie — Soudage
 
-Pour voir le calendrier, réserver et payer, [c’est par ici](/events).
+![Soudure](./soudure2-150x150-1-e1678823346860.jpg)
 
+Apprendre les règles de sécurité et les bases du soudage à l'électrode enrobée : choix du matériel, réalisation d'un cordon de soudure, assemblages simples. Selon le projet, une initiation complémentaire TIG ou semi-automatique MAG peut être proposée.
 
+**Équipement requis :** chaussures de sécurité, vêtements en coton à manches longues (pas de synthétiques), gants en cuir. Éviter les lentilles de contact.
 
+**Équipement fourni :** postes à souder, cagoules, matériaux d'entraînement.
 
-## DÉCOUVRIR, APPRENDRE DES TECHNIQUES
+**Groupe :** 3 personnes
 
-### SOUDAGE
+### Découpe laser
 
-#### SOUDER DES ÉLÉMENTS MÉTALLIQUES
+![Découpe laser](./IMG_20230713_143321-scaled.jpg)
 
-![](./soudure2-150x150-1-e1678823346860.jpg)
+Utiliser la découpeuse laser en sécurité et en comprendre les principes et les limites. Un niveau minimum en manipulation de fichiers vectoriels (SVG, AI ou DXF) est requis avant la formation.
 
-**Objectifs :**
+**Groupe :** 1 à 3 personnes
 
-- Apprendre les règles de sécurité afin de souder dans de bonnes conditions ; connaître le matériel de base (type de postes à souder, choix des électrodes, etc.) ;
+---
 
-- Apprendre à réaliser un cordon de soudure ;
+## Initiations thématiques
 
-- Apprendre à réaliser des assemblages.
+Ces initiations permettent d'apprendre ou d'approfondir une technique. Elles ne conditionnent pas l'accès aux ateliers.
 
-**Prochaines dates et inscription :**
+### Menuiserie — Assemblages
 
-Nous proposons généralement des sessions une ou deux fois par mois. Pour voir le calendrier, réserver et payer, [c’est par ici](/events).
+![Assemblages bois](./Assemblage-bois-lamelo.jpg)
 
-**Niveau** **:** Débutant
+Aborder les différentes techniques d'assemblage, discuter de votre projet et commencer à assembler.
 
-**Matériel requis** **:**
+**Équipement requis :** vêtements près du corps, chaussures fermées, cheveux attachés.
 
-- Chaussures de sécurité
+**Groupe :** 2 à 4 personnes
 
-- **Vêtements EN COTON (les synthétiques peuvent brûler ou fondre avec les étincelles), et à MANCHES LONGUES.**﻿
+### Menuiserie — Assemblages à la main
 
-- Gants de protection **en cuir** (quelques paires sont disponibles sur place)
+![Assemblages à la main](./Assemblage-bois.jpg)
 
-- Les lentilles de contact sont à éviter à cause des poussières et de la fumée dégagée par l’électrode.
+Découvrir les assemblages traditionnels à la main : scie japonaise, ciseaux à bois. Réaliser au moins un assemblage.
 
-- En hiver, pensez à vous habiller chaudement !
+**Équipement requis :** vêtements près du corps, chaussures fermées, cheveux attachés.
 
-**Matériel et équipement fournis** **:**
+**Groupe :** 2 à 4 personnes
 
-- Postes à souder (mais vous pouvez aussi apporter le vôtre si vous en avez un)
+### Impression 3D
 
-- Cagoules de soudage
+Découvrir le fonctionnement d'une imprimante 3D, préparer un fichier et lancer une impression sur la Prusa i3 MK3.
 
-- Matériaux pour s’entraîner
-
-**Groupe** de 3 personnes
-
-**Prix** **: 30 €** (+ 10€ d’adhésion à La Fabrique pour les non-adhérents)
-
-### TECHNIQUES D'ASSEMBLAGES
-
-#### QUEL ASSEMBLAGE POUR QUEL APPLICATION
-
-![](./Assemblage-bois-lamelo.jpg)
-
-**Objectifs :**
-
-- Aborder les différentes techniques d’assemblages avec différents outils
-
-- Discuter / aider à préparer et éventuellement commencer à assembler votre projet
-
-**Matériel requis :**
-
-- Vêtements près du corps
-
-- Chaussures fermées
-
-- Cheveux attachés
-
-**Groupe** de 2 à 4 personnes
-
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
-
-### ASSEMBLAGE À LA MAIN
-
-#### SCIE JAPONAISE ET CISEAUX À BOIS
-
-![](./Assemblage-bois.jpg)
-
-**Objectifs :**
-
-- Découvrir les assemblages traditionnels à la main
-
-- Découvrir l'usage des outils à main
-
-- Réaliser au moins un assemble
-
-**Matériel requis :**
-
-- Vêtements près du corps
-
-- Chaussures fermées
-
-- Cheveux attachés
-
-**Groupe** de 2 à 4 personnes
-
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
-
-### CLUB COUTURE
-
-#### RETOUCHES, PATRONAGE, EXÉCUTION, ETC.
-
-<figure>
-
-![Couture](./couture.png)
-
-<figcaption>
-
-Retouches, créations, expositions
-
-</figcaption>
-
-</figure>
-
-**Objectifs :**
-
-- Accompagnement dans vos réalisations et personnalisations de vêtements ou accessoires
-
-- Maîtrise des techniques de coupe, d'assemblage et de finition
-
-**Matériel requis :**
-
-Petite paire de ciseaux aiguisée
-
-- Boite avec des épingles
-
-- Crayon de papier
-
-- Trois stylos feutre (noir, rouge, vert)
-
-- Tissu
-
-- Fil
-
-- Si vous avez une machine à coudre, vous pouvez aussi l’apporter, que vous sachiez vous en servir ou non
-
-**Groupe** de 2 à 4 personnes
-
-**Prix** : 30€ (+10€ d'adhésion si vous n'êtes pas membre de l'association)
+**Groupe :** 2 à 3 personnes

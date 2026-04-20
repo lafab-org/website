@@ -2,7 +2,23 @@
     background-color: var(--color-dark-soft);
     color: var(--color-light-soft);
     font-size: var(--step--1);
-    text-align: center;
     border-block-start: 3px solid var(--color-primary);
     margin-block-start: auto;
+}
+
+.b_site-footer__nav {
+    --l_cluster__gap: 0.25rem 1.5rem;
+}
+
+.b_site-footer__nav a {
+    text-decoration: none;
+    color: var(--color-light-soft);
+}
+
+.b_site-footer__nav a:hover {
+    color: var(--color-light);
+}
+
+.b_site-footer__copy {
+    color: #888;
 }

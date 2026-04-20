@@ -1,7 +1,24 @@
 ---
 layout: layouts/base.njk
 ---
-<article>
+<nav class="b_section-nav" aria-label="Navigation des pages">
+  <div class="l_cluster l_center" style="--l_center__size: min(90%, 1100px); --l_cluster__gap: 0">
+    {% set pages_nav = [
+      { label: "Ateliers", url: "/ateliers/" },
+      { label: "Formations", url: "/initiations/" },
+      { label: "Horaires et tarifs", url: "/horaires-et-tarifs/" },
+      { label: "Nous contacter", url: "/nous-contacter/" },
+      { label: "Nous soutenir", url: "/nous-soutenir/" }
+    ] %}
+    {% for item in pages_nav %}
+      <a href="{{ item.url }}"
+         class="b_section-nav__item{% if page.url == item.url %} b_section-nav__item--active{% endif %}">
+        {{ item.label }}
+      </a>
+    {% endfor %}
+  </div>
+</nav>
+<article class="l_flow">
   <h1>{{ title }}</h1>
   {{ content | safe }}
 </article>

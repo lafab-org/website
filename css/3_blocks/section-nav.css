@@ -1,0 +1,27 @@
+.b_section-nav {
+    background-color: var(--color-light-soft);
+    border-block-end: 1px solid #b8b8b8;
+    overflow-x: auto;
+}
+
+.b_section-nav__item {
+    display: block;
+    padding: 0.6rem 1.25rem;
+    font-size: var(--step--1);
+    text-decoration: none;
+    color: var(--color-dark-soft);
+    white-space: nowrap;
+    border-block-end: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+}
+
+.b_section-nav__item:hover {
+    color: var(--color-dark);
+    border-block-end-color: var(--color-primary);
+}
+
+.b_section-nav__item--active {
+    color: var(--color-dark);
+    border-block-end-color: var(--color-primary);
+    font-weight: bold;
+}
