@@ -126,7 +126,7 @@ hr {
 
 p > picture,
 figure {
-    max-inline-size: calc(var(--l_center__size) * 2 / 3);
+    max-inline-size: 45ch;
     margin-inline: auto;
 }
 
