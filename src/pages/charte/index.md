@@ -1,9 +1,7 @@
 ---
-title: Charte des usagers
+title: Charte des usagers de La Fabrique
 date: 2025-02-15
 ---
-
-# Charte des usagers de La Fabrique
 
 ## Introduction
 
