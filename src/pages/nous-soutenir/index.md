@@ -1,9 +1,6 @@
 ---
 title: "Nous soutenir"
 date: 2023-08-17
-eleventyNavigation:
-  key: Nous soutenir
-  parent: Accueil
 ---
 
 La Fabrique est une association à but non lucratif, fonctionnant sur la base du bénévolat. Il n'y a pas de clients, mais des usagers. Tout le monde est invité à participer à cette mise en commun des outils et des savoir-faire.

@@ -1,9 +1,6 @@
 ---
 title: "Formations"
 date: 2022-10-04
-eleventyNavigation:
-  key: Formations
-  parent: Accueil
 ---
 
 Les initiations permettent d'accéder en autonomie aux machines qui le nécessitent, ou d'apprendre une technique particulière. Elles se déroulent en petits groupes avec un·e formateur·rice bénévole de La Fabrique.

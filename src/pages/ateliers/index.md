@@ -1,9 +1,6 @@
 ---
 title: "Les ateliers"
 date: 2023-08-19
-eleventyNavigation:
-  key: Ateliers
-  parent: Accueil
 ---
 
 La Fabrique dispose d'un espace de 1500 m² organisé en ateliers spécialisés, équipés de machines professionnelles. Certaines machines nécessitent une initiation obligatoire avant tout accès en autonomie — ces initiations sont décrites sur la page [Formations](/initiations/).

@@ -1,9 +1,6 @@
 ---
 title: "RÈGLEMENT"
 date: 2023-08-21
-eleventyNavigation:
-  key: Réglement
-  parent: Réglements et status
 ---
 
 ## RÈGLEMENT INTÉRIEUR

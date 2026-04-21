@@ -1,9 +1,6 @@
 ---
 title: "Agenda"
 date: 2024-01-01
-eleventyNavigation:
-  key: Agenda
-  parent: Accueil
 ---
 
 Retrouvez ici toutes les initiations et activités programmées. La réservation et le paiement se font directement en ligne.

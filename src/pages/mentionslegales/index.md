@@ -1,8 +1,6 @@
 ---
 title: "Mentions légales"
 date: 2015-10-19
-eleventyNavigation:
-  key: Mentions légales
 ---
 
 Conformément aux dispositions de l’article 6 III-1 de la loi n°2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique.

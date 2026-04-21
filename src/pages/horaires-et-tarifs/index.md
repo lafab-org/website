@@ -1,9 +1,6 @@
 ---
 title: "Horaires et tarifs"
 date: 2023-03-28
-eleventyNavigation:
-  key: Horaires et tarifs
-  parent: Accueil
 ---
 
 ## Accès aux ateliers en autonomie

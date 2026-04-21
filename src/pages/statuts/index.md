@@ -1,9 +1,6 @@
 ---
 title: "STATUTS"
 date: 2023-08-20
-eleventyNavigation:
-  key: Status
-  parent: Réglements et status
 ---
 
 ## Statuts de l'association

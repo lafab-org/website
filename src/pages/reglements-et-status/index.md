@@ -1,8 +1,6 @@
 ---
 title: "RÈGLEMENTS ET STATUTS"
 date: 2016-05-07
-eleventyNavigation:
-  key: Réglements et status
 ---
 
 ## Les status

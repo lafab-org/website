@@ -1,9 +1,6 @@
 ---
 title: "Protection des données personnelles"
 date: 2024-01-01
-eleventyNavigation:
-  key: RGPD
-  parent: Mentions légales
 ---
 
 ## Responsable du traitement

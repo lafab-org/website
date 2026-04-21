@@ -1,9 +1,6 @@
 ---
 title: "NOUS CONTACTER"
 date: 2023-03-10
-eleventyNavigation:
-  key: Nous contacter
-  parent: Accueil
 ---
 
 ## Nous rencontrer
