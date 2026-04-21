@@ -1,11 +1,9 @@
 <footer class="b_site-footer">
   <div class="l_box l_repel l_center" style="--l_repel__alignment: flex-start">
     <nav class="l_cluster b_site-footer__nav" aria-label="Liens secondaires">
-      <a href="/code-de-conduite/">Code de conduite</a>
-      <a href="/reglement/">Règlement</a>
-      <a href="/statuts/">Statuts</a>
-      <a href="/rgpd/">RGPD</a>
-      <a href="/mentionslegales/">Mentions légales</a>
+      {% for item in navigation.footer %}
+        <a href="{{ item.url }}">{{ item.label }}</a>
+      {% endfor %}
     </nav>
     <a href="https://tierslieuxgrandest.org/" class="b_site-footer__membership" aria-label="La Fabrique est membre du réseau Tiers Lieux Grand-Est">
       <span>Membre de</span>

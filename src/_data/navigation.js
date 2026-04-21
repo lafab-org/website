@@ -11,4 +11,11 @@ export default {
     { label: "Nous contacter", url: "/nous-contacter/" },
     { label: "Nous soutenir", url: "/nous-soutenir/" },
   ],
+  footer: [
+    { label: "Charte", url: "/charte/" },
+    { label: "Règlement", url: "/reglement/" },
+    { label: "Statuts", url: "/statuts/" },
+    { label: "RGPD", url: "/rgpd/" },
+    { label: "Mentions légales", url: "/mentionslegales/" },
+  ],
 };
