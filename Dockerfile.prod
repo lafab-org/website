@@ -6,7 +6,9 @@ COPY package*.json ./
 RUN npm ci
 
 COPY . .
-RUN --mount=type=cache,target=/app/_site/img npm run build
+RUN --mount=type=cache,target=/app/_site/img \
+    --mount=type=cache,target=/app/.cache \
+    npm run build
 
 FROM nginx:stable-alpine
 
