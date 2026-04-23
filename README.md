@@ -15,7 +15,6 @@ npm start     # http://localhost:8080
 
 ```bash
 docker compose up dev    # développement — http://localhost:8080
-docker compose up prod   # production    — http://localhost:80
 ```
 
 ## Ajouter du contenu
