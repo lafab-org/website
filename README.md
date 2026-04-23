@@ -19,7 +19,7 @@ Via le gestionnaire de paquets Linux (Ubuntu/Debian) — attention, la version f
 sudo apt install nodejs npm
 ```
 
-Via [nvm](https://github.com/nvm-sh/nvm) (recommandé — installe la dernière LTS, fonctionne sur Linux, macOS et WSL) :
+Via [nvm](https://github.com/nvm-sh/nvm) (recommandé — installe la dernière LTS) :
 
 ```bash
 # installer nvm
