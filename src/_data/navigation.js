@@ -6,10 +6,11 @@ export default {
   ],
   pages: [
     { label: "Ateliers", url: "/ateliers/" },
-    { label: "Formations", url: "/initiations/" },
-    { label: "Horaires et tarifs", url: "/horaires-et-tarifs/" },
-    { label: "Nous contacter", url: "/contact/" },
-    { label: "Nous soutenir", url: "/nous-soutenir/" },
+    { label: "Menuiserie", url: "/menuiserie/" },
+    { label: "Métallerie", url: "/metallerie/" },
+    { label: "Matériaux souples", url: "/mat-spl/" },
+    { label: "Numérique", url: "/numerique/" },
+    { label: "L'association", url: "/association/" },
   ],
   footer: [
     { label: "Charte", url: "/charte/" },
