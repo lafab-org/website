@@ -11,11 +11,15 @@ Surface : 50 m²
 
 - Alimentation de laboratoire, oscilloscope, GBF
 - Station à air chaud, fers à souder, binoculaire
-- Prototypage PCB : PROTOMAT S62, Cirqoid
+- Prototypage PCB : Cirqoid
+
+![Cirqoid](./CIRQOID.jpg)
 
 ## Découpe et gravure laser  {#laser}
 
 ![Découpeuse laser](./Laser-1.jpg)
+
+![Découpeuse laser en action](./IMG_20230713_143321-scaled.jpg)
 
 Surface utile : 120 cm × 90 cm — deux lasers 50 W et 150 W.
 
