@@ -5,8 +5,7 @@ export default {
     { label: "Réalisations", url: "/realisations/" },
   ],
   pages: [
-    { label: "Ateliers", url: "/ateliers/" },
-    { label: "Menuiserie", url: "/menuiserie/" },
+{ label: "Menuiserie", url: "/menuiserie/" },
     { label: "Métallerie", url: "/metallerie/" },
     { label: "Matériaux souples", url: "/mat-spl/" },
     { label: "Numérique", url: "/numerique/" },
