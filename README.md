@@ -2,14 +2,8 @@
 
 Site statique généré avec [Eleventy](https://www.11ty.dev/), stylisé avec [CUBE CSS](https://cube.fyi/) et les primitives de mise en page [Every Layout](https://every-layout.dev/).
 
-## Lancer le site
 
-**Prérequis :** Node.js LTS installé sur votre machine (voir ci-dessous).
-
-```bash
-npm install   # une seule fois
-npm start     # http://localhost:8080
-```
+## Prérequis
 
 ### Installer Node.js LTS
 
@@ -19,7 +13,7 @@ Via le gestionnaire de paquets Linux (Ubuntu/Debian) — attention, la version f
 sudo apt install nodejs npm
 ```
 
-Via [nvm](https://github.com/nvm-sh/nvm) (recommandé — installe la dernière LTS) :
+Ou alors via [nvm](https://github.com/nvm-sh/nvm)
 
 ```bash
 # installer nvm
@@ -29,11 +23,14 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/HEAD/install.sh | bash
 nvm install --lts
 ```
 
-## Avec Docker
+
+## Lancer le site localement
 
 ```bash
-docker compose up dev    # développement — http://localhost:8080
+npm install   # une seule fois
+npm start     # http://localhost:8080
 ```
+
 
 ## Ajouter du contenu
 
